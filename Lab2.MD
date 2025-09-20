@@ -2,7 +2,6 @@
 
 
 ### mermaid code for iaas will generate flowchart 
-
 flowchart TD
     %% User request coming in
     A[INTERNET / User] --> B["IAAS CLOUD ENVIRONMENT\n(AWS / AZURE / GCP)"]
@@ -26,11 +25,13 @@ flowchart TD
     C --> A
 
     %% Security group
-    subgraph Security["Firewall / Security Group"]
+    subgraph Security
         D
         E
         F
     end
+
+
 
 ## Description
 
