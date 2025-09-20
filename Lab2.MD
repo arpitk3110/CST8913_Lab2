@@ -3,7 +3,7 @@
 
 ### mermaid code for iaas will generate flowchart 
 
-```mermaid
+
 flowchart TD
     %% User request coming in
     A[INTERNET / User] --> B["IAAS CLOUD ENVIRONMENT\n(AWS / AZURE / GCP)"]
@@ -26,11 +26,12 @@ flowchart TD
     D -- "UI Response" --> C
     C --> A
 
-    %% Security group (simplified for GitHub)
-    D["VM 1: React UI Frontend\nReact App (Firewall)"]
-    E["VM 2: Flask Web Server\nFlask App (Firewall)"]
-    F["VM 3: PostgreSQL Database\nPostgres Server (Firewall)"]
-
+    %% Security group
+    subgraph Security["Firewall / Security Group"]
+        D
+        E
+        F
+    end
 
 
 
