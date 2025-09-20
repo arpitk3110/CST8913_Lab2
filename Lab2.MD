@@ -1,6 +1,4 @@
-# Iaas application deployment in the cloud workflow: 
-
-
+# IaaS Application Deployment in the Cloud Workflow
 
 ### Mermaid Code (for lab requirement)
 ```mermaid
@@ -31,6 +29,7 @@ flowchart TD
         E
         F
     end
+
 
 
 ## Description
