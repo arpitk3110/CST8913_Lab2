@@ -30,7 +30,7 @@ flowchart TD
         F
     end
 
-
+ ``` 
 d:\Cloud_Sem_1\iaas.png
 
 ## Description
@@ -53,9 +53,7 @@ The IaaS architectural design will be a complete self-managed infrastructure ove
 
 ## Paas application deployment in the cloud workflow: 
  
-
-
-# mermaid code for paas will generate flowchart  
+```mermaid
 
 flowchart TD
     %% User
@@ -103,7 +101,8 @@ flowchart TD
     classDef security fill:#d4e6f1,stroke:#2471a3,stroke-width:1.5px,color:#000
     classDef monitoring fill:#e8daef,stroke:#76448a,stroke-width:1.5px,color:#000
 
-![alt text](paas.png)
+ ```
+
 ## Description
 
 The PaaS model illustrates how it is easier to deploy applications with the help of fully managed cloud services. In this setup:
