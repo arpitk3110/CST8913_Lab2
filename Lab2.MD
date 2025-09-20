@@ -1,11 +1,10 @@
 # Iaas application deployment in the cloud workflow: 
 
+# IaaS Application Deployment in the Cloud Workflow
 
-### mermaid code for iaas will generate flowchart 
-
-
+### Mermaid Code (for lab requirement)
+```mermaid
 flowchart TD
-    %% User request coming in
     A[INTERNET / User] --> B["IAAS CLOUD ENVIRONMENT\n(AWS / AZURE / GCP)"]
     B --> C["Load Balancer\nPublic IP"]
     C --> D["VM 1: React UI Frontend\nReact App"]
